@@ -13,7 +13,7 @@ public class DBConnect {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); //This is the database Driver
                 conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;" //This is the database Url
                 + "databaseName=medical_consulting_db1;"
-                + "user=TMan;"
+                + "user=Tshepi;"
                 + "password=1234;"        
                 + "trustServerCertificate=true;"
                 + "encrypt=true;");
